@@ -1,0 +1,25 @@
+:root{
+  --bg:#fff;
+  --muted:#666;
+  --accent:#0066ff;
+}
+
+html,body,#root{
+  height:100%;
+}
+
+body{
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background: var(--bg);
+  color: #111;
+  margin:0;
+}
+
+a{ color: var(--accent); text-decoration: none }
+
+button{ padding:8px 12px; border-radius:6px; border:1px solid #ddd; background:#fafafa }
+
+input, textarea{ padding:8px; border:1px solid #ddd; border-radius:6px; width:100% }
+
+article{ background:#fff }
+
